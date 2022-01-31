@@ -1,4 +1,4 @@
-const valuesNumber ={
+export const valuesNumber ={
     0 : 'units',
     1 : 'tens',
     2 : 'hundred',
@@ -7,7 +7,7 @@ const valuesNumber ={
     5 : 'hundred-thousand',
 }
 
-const valuesDecimal ={
+export const valuesDecimal ={
     0 : 'zero',
     1 : 'one',
     2 : 'two',
@@ -20,7 +20,7 @@ const valuesDecimal ={
     9 : 'nine',
 }
 
-const valuesTen ={
+export const valuesTen ={
     "two" : 'twenty',
     "three" : 'thirty',
     "four" : 'fourty',
@@ -31,7 +31,7 @@ const valuesTen ={
     "nine" : 'ninety',
 }
 
-const valuesTenConjugation ={
+export const valuesTenConjugation ={
     "one" : 'eleven',
     "two" : 'twelve',
     "three" : 'thirteen',
@@ -44,5 +44,5 @@ const valuesTenConjugation ={
    
 }
 
-module.exports = {valuesNumber, valuesDecimal, valuesTen, valuesTenConjugation};
+
 

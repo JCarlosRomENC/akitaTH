@@ -1,4 +1,5 @@
-require("babel-core/register");
-require("babel-polyfill");
+import 'babel-core/register.js'
+import 'babel-polyfill'
+import index from "./app.js"
 
-module.exports = require('./app.js')
+index()

@@ -1,4 +1,4 @@
-import { getDollarsString, getCentString } from '../resources/functions';
+import { getDollarsString, getCentString } from '../resources/functions.js';
 
 export default function calculateNumber(number){
 

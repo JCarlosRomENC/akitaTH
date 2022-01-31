@@ -1,6 +1,6 @@
-import {valuesDecimal, valuesNumber, valuesTen, valuesTenConjugation} from './../resources/valueSchema'
+import {valuesDecimal, valuesNumber, valuesTen, valuesTenConjugation} from './../resources/valueSchema.js'
 
-function getDollarsString (integerNumber){
+export  function getDollarsString (integerNumber){
     let numberString="";
     let isTenConjuntion = false;
     integerNumber.map((value, index)=>{
@@ -37,7 +37,7 @@ function getDollarsString (integerNumber){
     return numberString;
 }
 
-function getCentString (myArr, numberStringComplete = numberString){
+export function getCentString (myArr, numberStringComplete = numberString){
     let isFormated = true;
 
     if(myArr[1]){
@@ -58,7 +58,3 @@ function getCentString (myArr, numberStringComplete = numberString){
     return {isFormated, numberStringComplete, centsNumber}
 }
 
-module.exports={
-    getDollarsString,
-    getCentString
-}

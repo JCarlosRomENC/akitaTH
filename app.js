@@ -1,7 +1,7 @@
 "use strict";
-import getNumber from './modules/getNumber'
-import calculateNumber from './modules/calculateNumber'
-async function index(){
+import getNumber from './modules/getNumber.js'
+import calculateNumber from './modules/calculateNumber.js'
+export default async function index(){
 
     var number =  await getNumber()
 
@@ -17,4 +17,3 @@ async function index(){
     
 }
 
-index()

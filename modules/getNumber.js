@@ -1,7 +1,8 @@
+import  ReadLine  from 'readline';
 export default function getNumber (){
 
     var number = new Promise(function(resolve, reject) {
-        const readline = require('readline').createInterface({
+        const readline = ReadLine.createInterface({
             input: process.stdin,
             output: process.stdout
           })
